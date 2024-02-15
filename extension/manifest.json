@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Reddit TTS",
+    "description": "Text to speech on Reddit posts with the click of a button!",
+    "version": "1.0",
+    "icons": {
+      "icon": "images/reddit_tts_icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab"]
+  }
